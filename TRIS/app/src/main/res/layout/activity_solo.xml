@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRIS"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/rosso"
+        android:layout_marginTop="15dp"/>
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@color/arancionechiaro"
+            android:layout_margin="2dp"
+            android:textSize="19dp"
+            android:onClick="mossa"/>
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@color/arancionechiaro"
+            android:layout_margin="2dp"
+            android:textSize="19dp"
+            android:onClick="mossa"/>
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@color/arancionechiaro"
+            android:layout_margin="2dp"
+            android:textSize="19dp"
+            android:onClick="mossa"/>
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@color/arancionechiaro"
+            android:layout_margin="2dp"
+            android:textSize="19dp"
+            android:onClick="mossa"/>
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@color/arancionechiaro"
+            android:layout_margin="2dp"
+            android:textSize="19dp"
+            android:onClick="mossa"/>
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@color/arancionechiaro"
+            android:layout_margin="2dp"
+            android:textSize="19dp"
+            android:onClick="mossa"/>
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@color/arancionechiaro"
+            android:layout_margin="2dp"
+            android:textSize="19dp"
+            android:onClick="mossa"/>
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@color/arancionechiaro"
+            android:layout_margin="2dp"
+            android:textSize="19dp"
+            android:onClick="mossa"/>
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@color/arancionechiaro"
+            android:layout_margin="2dp"
+            android:textSize="19dp"
+            android:onClick="mossa"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/reset"
+        android:onClick="reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="RESET"
+        android:layout_marginTop="15dp"
+        android:background="@color/arancione" />
+
+    <TextView
+        android:id="@+id/messaggio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:fontFamily="casual"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/verde"/>
+
+</LinearLayout>

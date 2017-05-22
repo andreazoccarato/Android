@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRIS"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/rosso"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single Player"
+        android:id="@+id/solo"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/giallo"
+        android:onClick="solo"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MultiPlayer"
+        android:id="@+id/multi"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/giallo"
+        android:onClick="multi"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/start"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@color/arancionechiaro"
+        android:onClick="start"/>
+</LinearLayout>
+
